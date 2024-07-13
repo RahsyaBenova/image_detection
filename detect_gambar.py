@@ -8,7 +8,7 @@ import numpy as np
 
 def app():
     # Mengatur konfigurasi halaman Streamlit
-    st.set_page_config(page_title="Object Detection App", page_icon="🔍")
+    st.set_page_config(page_title="Pendeteksi Objek")
     st.header('Deteksi gambar Menggunakan YOLOv8')
     st.subheader('created by: sya') 
     st.write('Unpload gambar dan pilih objek yang ingin Anda deteksi.')
